@@ -2,6 +2,8 @@ module github.com/Trendyol/go-dcp-elasticsearch
 
 go 1.20
 
+replace github.com/Trendyol/go-dcp => ../go-dcp
+
 require (
 	github.com/Trendyol/go-dcp v1.2.6
 	github.com/elastic/go-elasticsearch/v7 v7.17.10
